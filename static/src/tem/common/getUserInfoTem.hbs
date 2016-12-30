@@ -1,0 +1,18 @@
+
+<!--切换身份模板-->
+<li class='li1'>
+    <i class='name'></i>
+    <span>{{userIdEntity}}</span>
+    <i class='arrow'></i>
+    <ul class='pa child1 hide'>
+        <li><a href='/profile/profile.htm'>个人中心</a></li>
+        <ul class='changeIdentity noBorder'>
+            {{#each identityList}}
+                <li>
+                    <a class='changeId' data='3' href='javascript:void(0);'>{{identity}}</a>
+                </li>
+            {{/each}}
+        </ul>
+        <li class='sign'><a href='/site/lognt.htm'>退出</a></li>
+    </ul>
+</li>

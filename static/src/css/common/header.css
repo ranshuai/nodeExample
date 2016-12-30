@@ -1,0 +1,42 @@
+/*头部*/
+.header{background: #fcb314;height: 50px;color: white;line-height: 50px;font-family: '宋体';font-size: 12px;}
+.header a{color: white;}
+.header .headerL,.header .headerR{height: 50px;}
+.header .headerL img{width: 161px;height: 19px;margin-top: 15px;}
+.header .headerL a i{width: 110px;height: 46px;background: url(../../images/ico.png) 0 0;margin-right: 34px;margin-top: 3px;float: left}
+.header .headerL ul{float: left}
+.header .headerL ul li a{padding: 0 8px;display: inline-block}
+.header .headerL ul li:hover{background: #e2a112}
+.header .headerR li.li1 span{max-width: 75px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: inline-block;float: left}
+.header .headerR li.login a{height: 50px;display: inline-block}
+.header .headerR li.login:hover,.header .headerR li.li2:hover{background: #e2a112}
+.header .headerR li.li2 a{display: inline-block}
+.header .headerR li.login:hover i.name{background-position: 0 -106px;}
+.header .headerR li{float: left;padding: 0 10px;position: relative;cursor: pointer}
+.header .headerR li em{font-size: 16px;}
+.header .headerR li i{background: url(../../images/ico.png)}
+.header .headerR li i.name{width: 23px;height: 35px;background-position: 0 -106px;float: left}
+.header .headerR li i.vip{width: 25px;height: 37px;background-position: -280px -946px;float: left}
+.header .headerR li i.arrow{width: 8px;height: 7px;background-position: -320px -80px;margin-left: 8px}
+.header .headerR li i.schedule{width: 26px;height: 22px;background-position: 0 -240px;}
+.header .headerR li i.down{width: 24px;height: 20px;background-position: -120px -160px;}
+.header .headerR li i.service{width: 26px;height: 21px;background-position: -160px -120px;}
+.header .headerR li i.phone{width: 26px;height: 23px;background-position: -400px -40px;}
+.header .headerR li i.sch{width: 22px;height: 26px;background-position: -240px -840px;}
+.header .headerR li:hover i.name{background-position: -80px -146px;}
+.header .headerR li:hover i.vip{background-position: -280px -986px;}
+.header .headerR li:hover i.arrow{background-position: -440px 0}
+.header .headerR li:hover i.schedule{background-position: -40px -240px}
+.header .headerR li:hover i.service{background-position: -160px -160px;}
+.header .headerR li.li1:hover{background: white;border: 1px solid #e5e5e5;border-bottom: none;padding: 1px 9px;height: 48px;color: #888;}
+.header .headerR li ul{border: 1px solid #e5e5e5;color: #9a9a9a;top: 49px;left: -1px;background: white;border-top: none;z-index:2}
+.header .headerR li ul a{color: #9a9a9a;}
+.header .headerR li ul.child1 li a,.header ul li ul.child3 li a{width: 127px;display: inline-block}
+.header .headerR li ul.child1 li,.header ul li ul.child3 li{line-height: 32px;}
+.header .headerR li ul.child1 li:hover,.header ul li ul.child3 li:hover{background: #f4f4f4}
+.header .headerR li ul.child3{text-align: center}
+.header .headerR li ul.child1 li.sign{border-top: 1px dashed #f4f4f4;width:115px;text-align: center;margin-top: 5px;padding-top: 4px;color: #888}
+.header .headerR li ul.child1 li.sign:hover{background: white}
+.header .headerR li ul.child2{width: 260px;line-height: 22px;padding-top: 7px;}
+.header .headerR li ul.child2 a{display: inline-block;width: 100px;height: 30px;line-height: 30px;background: #fcb314;color: white;font-size: 14px;text-align: center;border-radius: 2px;margin: 5px 70px 0}
+.header .headerR li ul.child2 li{border-bottom: 1px dashed #f4f4f4;padding: 5px 10px 10px;}
